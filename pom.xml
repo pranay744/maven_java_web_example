@@ -12,7 +12,7 @@
 		<jackson.version>1.9.13</jackson.version>
 		<sonar.host.url>http://192.168.133.128:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin123</sonar.password>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
