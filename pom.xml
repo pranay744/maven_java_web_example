@@ -3,14 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>api</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>api</name>
 	<packaging>war</packaging>
 
 	<properties>
 		<java-version>1.8</java-version>
 		<jackson.version>1.9.13</jackson.version>
+		<sonar.host.url>http://192.168.133.128:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
@@ -44,6 +48,16 @@
 
 
 	</dependencies>
+	
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Java Web application</name>
+	      <url>http://192.168.133.128:8081/nexus/content/repositories/web-2</url>
+	    </repository>
+	    
+	</distributionManagement>
 
 	<build>
 		<finalName>api</finalName>
