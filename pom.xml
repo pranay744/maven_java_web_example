@@ -69,10 +69,10 @@
 		<plugins>
 			 <plugin>
                                 <artifactId>maven-compiler-plugin</artifactId>
-                                <version>3.12.1</version>
+                                <version>3.8.4</version>
                                 <configuration>
                                         <fork>true</fork>
-                                        <executable>/usr/lib/jvm/java-11-openjdk/bin/javac</executable>
+                                        <executable>/usr/lib/jvm/java-17-openjdk/bin/javac</executable>
                                 </configuration>
                         </plugin>
 			<plugin>
